@@ -1,0 +1,177 @@
+body {
+    /* background-image:url(imgs/survey-form-background.jpeg);  */
+    display: block;
+    background: linear-gradient(rgba(31, 15, 211, 0.45), rgba(31, 15, 211, 0.45)), url(/imgs/survey-form-background.jpeg) no-repeat;
+    background-repeat: no-repeat no-repeat ;
+    background-attachment: fixed;
+
+
+
+}
+
+#title {
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#description {
+    color: white;
+    font-style: italic;
+    text-align: center;
+    font-weight: 0.3px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    display: block;
+    margin: auto;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(28, 28, 32, 0.775);
+    width: 42rem;
+    padding: 35px;
+
+}
+
+label {
+    display: flex;
+    font-size: 23px;
+    padding: 15px;
+
+}
+
+input {
+    font-size: 15px;
+    padding: 5px;
+    display: block;
+    border: 5px rgb(23, 73, 181) ;
+    border-radius: 5px;
+    height: 25px;
+    width: 40rem;
+}
+
+#name {
+    margin-left: 10px;
+}
+
+#email {
+    margin-left: 10px;
+}
+
+#number {
+    margin-left: 10px;
+}
+
+#user {
+    display: flex;
+    font-size: 25px;
+    display: block;
+    padding: 15px;
+}
+
+input[type="radio"] {
+    width: 32px;
+    margin-left: 10px;
+}
+label[for="definitely"]{
+    margin-left: 35px;
+    margin-top: -42px;
+    
+}
+label[for="maybe"]{
+    margin-left: 35px;
+    margin-top: -42px;
+}
+label[for="notsure"]{
+    margin-left: 35px;
+    margin-top: -42px;
+}
+
+#features {
+    font-size: 15px;
+    padding: 5px;
+    display: block;
+    border-color: transparent;
+    border-radius: 5px;
+    height: 40px;
+    width: 43rem;
+    margin-left: 10px;
+}
+
+input[type="checkbox"]{
+    width: 32px;
+    margin-left: 10px;
+    
+}
+label[for="frontend"]{
+    margin-left: 35px;
+    margin-top: -44px;
+}
+label[for="backend"]{
+    margin-left: 35px;
+    margin-top: -44px;
+}
+label[for="data-visualisation"]{
+    margin-left: 35px;
+    margin-top: -44px;
+}
+label[for="challenges"]{
+    margin-left: 35px;
+    margin-top: -44px;
+}
+label[for="frontend"]{
+    margin-left: 35px;
+    margin-top: -44px;
+}
+label[for="opensource"]{
+    margin-left: 35px;
+    margin-top: -44px;
+}
+label[for="gitter"]{
+    margin-left: 35px;
+    margin-top: -44px;
+}
+label[for="videos"]{
+    margin-left: 35px;
+    margin-top: -44px;
+}
+label[for="city-meetups"]{
+    margin-left: 35px;
+    margin-top: -44px;
+}
+label[for="wiki"]{
+    margin-left: 35px;
+    margin-top: -44px;
+}
+label[for="forum"]{
+    margin-left: 35px;
+    margin-top: -44px;
+}
+label[for="additional-courses"]{
+    margin-left: 35px;
+    margin-top: -44px;
+}
+#comments{
+    height: 140px;
+    border-radius: 0px;
+    margin-left: 10px;
+    
+}
+
+
+#btn{
+    background-color: rgb(38, 145, 38);
+    width: 41rem;
+    margin-top: 20px;
+    height:45px;
+    color: white;
+    font-size: 20px;
+}
+p{
+    margin-left: 10px;
+    font-size: 23px;
+}
