@@ -1,7 +1,7 @@
 body {
     /* background-image:url(imgs/survey-form-background.jpeg);  */
     display: block;
-    background: linear-gradient(rgba(31, 15, 211, 0.45), rgba(31, 15, 211, 0.45)), url(imgs/survey-form-background.JPEG) no-repeat;
+    background: linear-gradient(rgba(31, 15, 211, 0.45), rgba(31, 15, 211, 0.45)), url(https://github.com/sayamalvi/survey-form/tree/main/imgs/survey-form-background.jpeg) no-repeat;
     background-repeat: no-repeat no-repeat ;
     background-attachment: fixed;
 
